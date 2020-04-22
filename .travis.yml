@@ -7,4 +7,5 @@ before install:
 
 script:
     - docker run -e CI=true shubhzzz/docker-react npm run test
-    - language: generic
+   
+language: generic
